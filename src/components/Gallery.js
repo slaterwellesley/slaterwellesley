@@ -13,17 +13,17 @@ import './SlaterBody.css';
 class Gallery extends React.Component {
     render() {
         return (
-            <div style={{display: "flex", 
+            <div style={{display: "flex", alignItems: "center",
                          backgroundColor: "whitesmoke"}}>
-                <Col sm={2}><SubHeading shTitle="Event Gallery" genOrAlt="alt" /></Col>
+                <Col sm={2}><SubHeading shTitle="Slater Events Gallery" genOrAlt="alt" /></Col>
                 <Col sm={10}>
                 <Carousel>
                     <Carousel.Item>
-                    <Row>
-                        <Col><img className="galleryImg" src={ISD} alt="International Students Day"></img></Col>
-                        <Col><img className="galleryImg" src={Election} alt="Post U.S. Election Community Time"></img></Col>
-                        <Col><img className="galleryImg" src={Meeting} alt="General Meeting"></img> </Col>
-                    </Row>
+                        <Row>
+                            <Col><img className="galleryImg" src={ISD} alt="International Students Day"></img></Col>
+                            <Col><img className="galleryImg" src={Election} alt="Post U.S. Election Community Time"></img></Col>
+                            <Col><img className="galleryImg" src={Meeting} alt="General Meeting"></img></Col>
+                        </Row>
                     </Carousel.Item>
                 </Carousel>
                 </Col>

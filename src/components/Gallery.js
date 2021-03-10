@@ -13,7 +13,7 @@ import './SlaterBody.css';
 class Gallery extends React.Component {
     render() {
         return (
-            <div style={{display: "flex", alignItems: "center",
+            <div id="Gallery" style={{display: "flex", alignItems: "center",
                          backgroundColor: "whitesmoke"}}>
                 <Col sm={2}><SubHeading shTitle="Slater Events Gallery" genOrAlt="alt" /></Col>
                 <Col sm={10}>

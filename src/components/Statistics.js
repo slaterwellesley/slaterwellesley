@@ -4,7 +4,7 @@ import SubHeading from './SubHeading';
 class Statistics extends React.Component {
     render() {
         return (
-            <div>
+            <div id="Statistics">
                 <SubHeading shTitle="International Students Statistics" genOrAlt="gen" />
                 <div className="generalPar">
                     <h1>Here will be some statistics of international students at Wellesley College.</h1>

@@ -5,7 +5,7 @@ import './SlaterBody.css'
 class LetsConnect extends React.Component {
     render() {
         return (
-            <div className="letsConnect">
+            <div id="LetsConnect" className="letsConnect">
                 <span> © 2021 Slater International Student Organization at Wellesley College</span>
                 <div className="socialPages" >
                     <a href="https://www.facebook.com/SlaterInternationalStudentsOrganization"

@@ -30,7 +30,7 @@ import './SlaterBody.css'
 class EBoard extends React.Component {
     render() {
         return (
-            <div style={{display: "flex", alignItems: "center",
+            <div id="EBoard" style={{display: "flex", alignItems: "center",
                         backgroundColor: "whitesmoke"}}>
                 {/* <Row> */}
                 <Col sm={2}>

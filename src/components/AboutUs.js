@@ -9,7 +9,7 @@ import './SlaterBody.css';
 class AboutUs extends React.Component {
     render() {
         return (
-            <div>
+            <div id="AboutUs">
                 <SubHeading shTitle="About us" genOrAlt="gen" />
                 <div className="generalPar">
                     <p>

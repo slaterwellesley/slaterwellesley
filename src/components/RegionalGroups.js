@@ -281,6 +281,25 @@ class RegionalGroups extends React.Component {
                                 </Card.Body>
                             </Accordion.Collapse>   
                         </Card>
+                        <Card>
+                            <Accordion.Toggle as={Card.Header} eventKey="28">
+                                <h2>Other</h2>
+                            </Accordion.Toggle>
+                            <Accordion.Collapse eventKey="28">
+                                <Card.Body>
+                                    <Accordion>
+                                        <Card>
+                                            <Accordion.Toggle as={Card.Header} eventKey="29">
+                                                <h3>CPLA</h3>
+                                            </Accordion.Toggle>
+                                            <Accordion.Collapse eventKey="29">
+                                                <Card.Body>CPLA details</Card.Body>
+                                            </Accordion.Collapse>
+                                        </Card>
+                                    </Accordion>
+                                </Card.Body>
+                            </Accordion.Collapse>   
+                        </Card>
                     </Accordion>
                 </div>
             </div>

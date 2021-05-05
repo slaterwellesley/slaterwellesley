@@ -2,7 +2,9 @@ import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import SubHeading from './SubHeading';
-import Button from "react-bootstrap/Button"
+import Button from "react-bootstrap/Button";
+import { BsCaretDown } from "react-icons/bs";
+// for orgs logo:
 import wasa from './orgs_image/wasa.jpg';
 import ethos from './orgs_image/ethos.jpg';
 import bsa from './orgs_image/bsa.png';
@@ -230,8 +232,8 @@ class RegionalGroups extends React.Component {
                 <div className="genPar" style={{ textAlign: "left", paddingLeft: "10%" }}>
                     <Accordion>
                         <Card>
-                            <Accordion.Toggle as={Card.Header} eventKey="18">
-                                <h2>Africa Region</h2>
+                            <Accordion.Toggle as={Card.Header} eventKey="18" className="regionalAccordion">
+                                <h2>Africa Region <BsCaretDown /></h2>
                             </Accordion.Toggle>
                             <Accordion.Collapse eventKey="18">
                                 <Card.Body>
@@ -244,8 +246,8 @@ class RegionalGroups extends React.Component {
                             </Accordion.Collapse>
                         </Card>
                         <Card>
-                            <Accordion.Toggle as={Card.Header} eventKey="0">
-                                <h2>Asia Region</h2>
+                            <Accordion.Toggle as={Card.Header} eventKey="0" className="regionalAccordion">
+                                <h2>Asia Region <BsCaretDown /></h2>
                             </Accordion.Toggle>
                             <Accordion.Collapse eventKey="0">
                                 <Card.Body>
@@ -258,8 +260,8 @@ class RegionalGroups extends React.Component {
                             </Accordion.Collapse>
                         </Card>
                         <Card>
-                            <Accordion.Toggle as={Card.Header} eventKey="15">
-                                <h2>Europe Region</h2>
+                            <Accordion.Toggle as={Card.Header} eventKey="15" className="regionalAccordion">
+                                <h2>Europe Region <BsCaretDown /></h2>
                             </Accordion.Toggle>
                             <Accordion.Collapse eventKey="15">
                                 <Card.Body>
@@ -272,8 +274,8 @@ class RegionalGroups extends React.Component {
                             </Accordion.Collapse>
                         </Card>
                         <Card>
-                            <Accordion.Toggle as={Card.Header} eventKey="26">
-                                <h2>Latin America Region</h2>
+                            <Accordion.Toggle as={Card.Header} eventKey="26" className="regionalAccordion">
+                                <h2>Latin America Region <BsCaretDown /></h2>
                             </Accordion.Toggle>
                             <Accordion.Collapse eventKey="26">
                                 <Card.Body>
@@ -286,8 +288,8 @@ class RegionalGroups extends React.Component {
                             </Accordion.Collapse>
                         </Card>
                         <Card>
-                            <Accordion.Toggle as={Card.Header} eventKey="22">
-                                <h2>Middle East Region</h2>
+                            <Accordion.Toggle as={Card.Header} eventKey="22" className="regionalAccordion">
+                                <h2>Middle East Region <BsCaretDown /></h2>
                             </Accordion.Toggle>
                             <Accordion.Collapse eventKey="22">
                                 <Card.Body>
@@ -300,8 +302,8 @@ class RegionalGroups extends React.Component {
                             </Accordion.Collapse>
                         </Card>
                         <Card>
-                            <Accordion.Toggle as={Card.Header} eventKey="28">
-                                <h2>Political Advocacy</h2>
+                            <Accordion.Toggle as={Card.Header} eventKey="28" className="regionalAccordion">
+                                <h2>Political Advocacy <BsCaretDown /></h2>
                             </Accordion.Toggle>
                             <Accordion.Collapse eventKey="28">
                                 <Card.Body>

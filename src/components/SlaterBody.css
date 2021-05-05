@@ -66,6 +66,17 @@ img {
 }
 
 /* Orgs */
+
+#RegionalGroups {
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.regionalAccordion {
+    cursor: pointer;
+    color: #6480a2;
+}
+
 .grid {
     min-height: 100%;
     display: flex;

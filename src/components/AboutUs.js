@@ -12,7 +12,7 @@ class AboutUs extends React.Component {
             <div id="AboutUs">
                 <SubHeading shTitle="About us" genOrAlt="gen" />
                 <div className="generalPar">
-                    <p>
+                    <p className =  "Welcome">
                         Welcome to the Slater International Student Organization!
                     </p>
                     <p>

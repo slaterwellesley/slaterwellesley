@@ -1,6 +1,15 @@
 .slaternav {
     background-color: rgba(245, 245, 245, 0.788);
+    /* background-color: transparent; */
     overflow-x: auto;
+}
+
+.slaternav.active {
+    background-color: #5C7ABE;
+}
+
+.navItemName {
+    color: whitesmoke;
 }
 
 .gen {
@@ -31,6 +40,13 @@
     padding-top: 2%;
     padding-bottom: 5%;
     text-align: left;
+}
+
+/* Welcome message */
+.Welcome {
+    font-family:fantasy;
+    font-size: larger;
+    font-weight: bold;
 }
 
 img {

@@ -18,7 +18,7 @@ class SlaterNavbar extends React.Component {
                         <Nav.Link href="#EBoard" eventKey="#EBoard"><div className="navItemName">E-Board</div></Nav.Link>
                         <Nav.Link href="#LetsConnect" eventKey="#LetsConnect"><div className="navItemName">Contact Us</div></Nav.Link>
                         <Nav.Link href="https://www.wellesley.edu/international" 
-                            rel="noreferrer" target="_blank"><div className="navItemName">Slater Center</div></Nav.Link>
+                            rel="noreferrer" target="_blank"><div className="navItemName">Go to Slater Center</div></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
